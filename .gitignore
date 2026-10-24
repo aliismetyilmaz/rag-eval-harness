@@ -1,0 +1,9 @@
+# Secrets: never commit your API key
+.env
+
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Keep per-run raw outputs local; results/latest.md is committed
+results/*/
